@@ -16,3 +16,20 @@
 * if you don't have knex installed globally, npx knex init
 * if you want to install globally npm i -g knex
 * npx knex migrate:make bootstrap
+* npx knex migrate:latest
+
+what happens if you run v3 code against v4 database.
+
+**Every table MUST have a Primary Key (PK)**
+
+Data Model > validation > db constraints
+
+## Steps
+
+- npx knex init to create knexfile.js
+- moved config object to knexfile.js from fruits router.
+- removed staging and production properties from knexfile.js
+- added db-config.js
+- changed the reference on fruits router to bring db from db-config.js
+
+**every change to the schema, needs a new migration**
