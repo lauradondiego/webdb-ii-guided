@@ -13,10 +13,10 @@
 - v3: 2007, contact info (type, value), multiple emails/phones/socia media accounts
 
 * strings will be VARCHAR
-* if you don't have knex installed globally, npx knex init
-* if you want to install globally npm i -g knex
-* npx knex migrate:make bootstrap
-* npx knex migrate:latest
+* install KNEX globally: npm i -g knex
+* knex migrate:make bootstrap
+* knex migrate:latest
+* knex seed:run
 
 what happens if you run v3 code against v4 database.
 
