@@ -15,3 +15,4 @@
 * strings will be VARCHAR
 * if you don't have knex installed globally, npx knex init
 * if you want to install globally npm i -g knex
+* npx knex migrate:make bootstrap

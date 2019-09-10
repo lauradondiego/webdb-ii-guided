@@ -7,6 +7,9 @@ module.exports = {
     connection: {
       // an object or a string
       filename: "./data/produce.db3" // from the root folder, not from here. so only 1 dot
+    },
+    migrations: {
+      directory: "./data/migrations"
     }
   }
 };
